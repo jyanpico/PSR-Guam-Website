@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="color-scheme" content="light">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>About | PSR Guam</title>
+ <meta name="description" content="About Pacific Supply Resources and Yanco Corporation.">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+ <link rel="stylesheet" href="css/custom.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+ <style>body.v3-body { font-family: Barlow, system-ui, sans-serif; }</style>
+</head>
+<body class="v3-body">
+ <div class="v3-strip">
+ <div class="container has-text-centered">Yanco Corporation · Harmon Industrial Park · Guam</div>
+ </div>
+ <nav class="navbar is-v3" role="navigation" aria-label="main navigation">
+ <div class="container">
+ <div class="navbar-brand is-flex is-align-items-center">
+ <a class="navbar-item brand-lockup py-2" href="index.html" title="Pacific Supply Resources Guam (DBA PSR Guam)">
+ <img class="brand-logo-psr" src="../assets/psr%20guam%20logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+ </a>
+ <div class="navbar-item brand-yanco-lockup is-hidden-mobile py-2 pl-4">
+ <p class="is-size-7 mb-1">A division of</p>
+ <img class="brand-logo-yanco" src="../assets/yanco%20logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+ </div>
+ <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+ <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+ </a>
+ </div>
+ <div id="navMenu" class="navbar-menu">
+ <div class="navbar-start">
+ <a class="navbar-item" href="index.html">Home</a>
+ <a class="navbar-item is-active" href="about.html">About</a>
+          <a class="navbar-item" href="products.html">Products</a>
+ <a class="navbar-item" href="industries.html">Industries</a>
+ <a class="navbar-item" href="contact.html">Contact</a>
+ </div>
+ <div class="navbar-end">
+ <div class="navbar-item"><a class="button is-warning has-text-weight-bold" href="contact.html">Get a quote</a></div>
+ </div>
+ </div>
+ </div>
+ </nav>
+
+ <section class="hero is-medium v3-hero">
+ <div class="hero-body">
+ <div class="container">
+ <h1 class="title is-2 v3-accent-bar">We are your supply desk in Guam.</h1>
+ <p class="subtitle is-4 mt-5" style="max-width: 42rem;">Pacific Supply Resources is the customer-facing wholesale arm for industrial and institutional supply—backed by Yanco Corporation’s local presence and vendor relationships.</p>
+ </div>
+ </div>
+ </section>
+
+ <section class="section">
+ <div class="container content">
+ <div class="columns">
+ <div class="column is-7">
+ <h2 class="title is-4">Principles</h2>
+ <ul>
+ <li><strong class="has-text-warning-dark">Accuracy first</strong> — wrong fit costs more than a slower quote.</li>
+ <li><strong class="has-text-warning-dark">Plain language</strong> — options, trade-offs, and timing in writing when it matters.</li>
+ <li><strong class="has-text-warning-dark">Repeatability</strong> — we want to be the easy button for your next order too.</li>
+ </ul>
+ <p class="mt-5">Whether you are replacing a single critical component or rebuilding a storeroom catalog, we will help you structure lists that your team can actually use in the field.</p>
+ </div>
+ <div class="column is-5">
+ <div class="v3-card p-5">
+ <p class="heading has-text-warning-dark">Visit</p>
+ <p class="title is-5">1797 Route 16</p>
+ <p>Harmon Industrial Park, Guam</p>
+ <a class="button is-warning is-outlined mt-4" href="https://maps.google.com/?q=1797+Route+16+Harmon+Industrial+Park+Guam" rel="noopener noreferrer" target="_blank">Directions</a>
+ </div>
+ </div>
+ </div>
+ </div>
+ </section>
+
+ <footer class="v3-footer">
+ <div class="container">
+ <div class="brand-footer-logos is-flex is-align-items-center mb-4">
+ <img class="brand-logo-psr" src="../assets/psr%20guam%20logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+ <img class="brand-logo-yanco" src="../assets/yanco%20logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+ </div>
+ <p class="is-size-7 mb-4">PSR Guam is the public trade name (DBA) for Pacific Supply Resources. Yanco Corporation is the parent company.</p>
+ <div class="columns">
+ <div class="column is-6">
+ <p class="has-text-weight-bold">Pacific Supply Resources</p>
+ <p class="is-size-7">Yanco Corporation · Guam</p>
+ </div>
+ <div class="column is-6 has-text-right-tablet">
+ <p><a href="contact.html">Contact</a> �</p>
+ </div>
+ </div>
+ </div>
+ </footer>
+ <script>
+ document.addEventListener("DOMContentLoaded", function () {
+ var burger = document.querySelector(".navbar-burger");
+ var menu = document.getElementById("navMenu");
+ if (burger && menu) {
+ burger.addEventListener("click", function () {
+ burger.classList.toggle("is-active");
+ menu.classList.toggle("is-active");
+ });
+ }
+ });
+ </script>
+</body>
+</html>

@@ -1,0 +1,464 @@
+/* ============================================================
+   Site V1 — Classic corporate
+   All colours are declared explicitly so Bulma's dark-mode
+   variable cascade cannot change what the visitor sees.
+   ============================================================ */
+
+/* ── Palette tokens ─────────────────────────────────────── */
+:root {
+  --psr-navy:      #0f2744;
+  --psr-navy-mid:  #1a3a5c;
+  --psr-blue:      #1a5fa8;
+  --psr-accent:    #1e6bb8;
+  --psr-light-bg:  #eef4fb;
+  --psr-border:    #c5d8ec;
+
+  --psr-body-bg:   #ffffff;
+  --psr-body-text: #2c3e55;
+  --psr-heading:   #1a2840;
+  --psr-muted:     #5a7a99;
+
+  /* Lock Bulma's global scheme */
+  --bulma-scheme-brightness: light;
+  --bulma-background:        #eef4fb;
+  --bulma-text:              #2c3e55;
+  --bulma-text-strong:       #1a2840;
+  --bulma-link:              #1a5fa8;
+  --bulma-link-hover:        #0f2744;
+
+  /* Lock Bulma's navbar-specific variables */
+  --bulma-navbar-background-color:                 #ffffff;
+  --bulma-navbar-item-color:                       #2c3e55;
+  --bulma-navbar-item-hover-background-color:      #eef4fb;
+  --bulma-navbar-item-hover-color:                 #0f2744;
+  --bulma-navbar-item-active-background-color:     #eef4fb;
+  --bulma-navbar-item-active-color:                #1e6bb8;
+  --bulma-navbar-burger-color:                     #2c3e55;
+  --bulma-navbar-dropdown-background-color:        #ffffff;
+  --bulma-navbar-dropdown-border-color:            #1e6bb8;
+  --bulma-navbar-divider-background-l:             80%;
+}
+
+html {
+  color-scheme: light;
+}
+
+/* Re-assert every Bulma variable that dark mode would flip.
+   This block runs AFTER Bulma's own dark-mode block in the cascade
+   because it is in our custom.css which loads after bulma.min.css. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bulma-scheme-brightness:                     light;
+    --bulma-background:                            #eef4fb;
+    --bulma-text:                                  #2c3e55;
+    --bulma-text-strong:                           #1a2840;
+    --bulma-link:                                  #1a5fa8;
+
+    /* Navbar */
+    --bulma-navbar-background-color:               #ffffff;
+    --bulma-navbar-item-color:                     #2c3e55;
+    --bulma-navbar-item-hover-background-color:    #eef4fb;
+    --bulma-navbar-item-hover-color:               #0f2744;
+    --bulma-navbar-item-active-background-color:   #eef4fb;
+    --bulma-navbar-item-active-color:              #1e6bb8;
+    --bulma-navbar-burger-color:                   #2c3e55;
+    --bulma-navbar-dropdown-background-color:      #ffffff;
+    --bulma-navbar-dropdown-border-color:          #1e6bb8;
+    --bulma-navbar-divider-background-l:           80%;
+
+    /* Box */
+    --bulma-box-background-color:                  #ffffff;
+    --bulma-box-color:                             #2c3e55;
+    --bulma-box-shadow:                            0 2px 8px rgba(15,39,68,0.07);
+
+    /* Card */
+    --bulma-card-background-color:                 #ffffff;
+    --bulma-card-color:                            #2c3e55;
+    --bulma-card-header-background-color:          #eef4fb;
+
+    /* Form */
+    --bulma-input-background-color:                #ffffff;
+    --bulma-input-color:                           #2c3e55;
+    --bulma-input-border-color:                    #c5d8ec;
+    --bulma-label-color:                           #1a2840;
+  }
+}
+
+/* ── Base ───────────────────────────────────────────────── */
+body {
+  background-color: var(--psr-body-bg);
+  color: var(--psr-body-text);
+}
+
+.title {
+  color: var(--psr-heading) !important;
+}
+
+.subtitle {
+  color: var(--psr-body-text) !important;
+}
+
+p, li, td, th {
+  color: var(--psr-body-text);
+}
+
+a {
+  color: var(--psr-accent);
+}
+a:hover {
+  color: var(--psr-navy);
+}
+
+strong {
+  color: var(--psr-heading);
+}
+
+/* ── Navbar ─────────────────────────────────────────────── */
+.navbar.is-white,
+.navbar.is-psr {
+  background-color: #ffffff !important;
+  border-bottom: 3px solid var(--psr-accent);
+}
+
+.navbar-item,
+.navbar-link {
+  color: var(--psr-body-text) !important;
+}
+
+.navbar-item:hover,
+.navbar-link:hover,
+.navbar-item.is-active {
+  background-color: var(--psr-light-bg) !important;
+  color: var(--psr-navy) !important;
+}
+
+.navbar-link.is-active {
+  color: var(--psr-accent) !important;
+}
+
+.navbar-dropdown {
+  background-color: #ffffff !important;
+  border-top: 2px solid var(--psr-accent) !important;
+  box-shadow: 0 4px 12px rgba(15, 39, 68, 0.12) !important;
+}
+
+.navbar-dropdown .navbar-item {
+  color: var(--psr-body-text) !important;
+}
+
+.navbar-dropdown .navbar-item:hover {
+  background-color: var(--psr-light-bg) !important;
+  color: var(--psr-navy) !important;
+}
+
+.navbar-divider {
+  background-color: var(--psr-border) !important;
+}
+
+.navbar-burger span {
+  background-color: var(--psr-body-text) !important;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+.hero-v1 {
+  background: linear-gradient(
+    135deg,
+    var(--psr-navy) 0%,
+    var(--psr-navy-mid) 50%,
+    var(--psr-accent) 100%
+  );
+}
+
+.hero-v1 .title,
+.hero-v1 .subtitle {
+  color: #ffffff !important;
+}
+
+.has-background-psr-navy {
+  background-color: var(--psr-navy) !important;
+}
+
+.has-background-psr-navy .title,
+.has-background-psr-navy .subtitle {
+  color: #ffffff !important;
+}
+
+/* ── Sections ───────────────────────────────────────────── */
+.section {
+  background-color: var(--psr-body-bg);
+}
+
+/* Override Bulma's has-background-light so it stays light */
+.has-background-light,
+.section.has-background-light {
+  background-color: var(--psr-light-bg) !important;
+}
+
+/* ── Box ────────────────────────────────────────────────── */
+.box {
+  background-color: #ffffff !important;
+  color: var(--psr-body-text) !important;
+  border: 1px solid var(--psr-border) !important;
+  box-shadow: 0 2px 8px rgba(15, 39, 68, 0.07) !important;
+}
+
+.box .title,
+.box .heading,
+.box strong,
+.box p {
+  color: var(--psr-body-text) !important;
+}
+
+.box .title {
+  color: var(--psr-heading) !important;
+}
+
+.box .heading {
+  color: var(--psr-muted) !important;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+/* ── Cards ──────────────────────────────────────────────── */
+.card {
+  background-color: #ffffff !important;
+  color: var(--psr-body-text) !important;
+  border: 1px solid var(--psr-border) !important;
+}
+
+.card-header {
+  background-color: var(--psr-light-bg) !important;
+  border-bottom: 1px solid var(--psr-border) !important;
+}
+
+.card-header-title {
+  color: var(--psr-heading) !important;
+}
+
+.card-content {
+  background-color: #ffffff !important;
+  color: var(--psr-body-text) !important;
+}
+
+.card-footer {
+  border-top: 1px solid var(--psr-border) !important;
+  background-color: #ffffff !important;
+}
+
+.card-footer-item {
+  color: var(--psr-accent) !important;
+}
+
+/* ── Message / notification ─────────────────────────────── */
+.message {
+  background-color: var(--psr-light-bg) !important;
+}
+
+.message.is-info {
+  background-color: #dbeeff !important;
+}
+
+.message.is-info .message-body {
+  background-color: #dbeeff !important;
+  color: #1a3a60 !important;
+  border-left-color: var(--psr-accent) !important;
+}
+
+.message.is-warning .message-body {
+  background-color: #fdf4dc !important;
+  color: #5a3e00 !important;
+}
+
+/* ── Form inputs ────────────────────────────────────────── */
+.label {
+  color: var(--psr-heading) !important;
+}
+
+.input,
+.textarea,
+.select select {
+  background-color: #ffffff !important;
+  color: var(--psr-body-text) !important;
+  border-color: var(--psr-border) !important;
+}
+
+.input:focus,
+.textarea:focus,
+.select select:focus {
+  border-color: var(--psr-accent) !important;
+  box-shadow: 0 0 0 0.125em rgba(30, 107, 184, 0.25) !important;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--psr-muted) !important;
+}
+
+/* ── Buttons ────────────────────────────────────────────── */
+.button.is-link {
+  background-color: var(--psr-accent) !important;
+  border-color: var(--psr-accent) !important;
+  color: #ffffff !important;
+}
+
+.button.is-link:hover {
+  background-color: var(--psr-navy) !important;
+  border-color: var(--psr-navy) !important;
+}
+
+.button.is-link.is-outlined {
+  background-color: transparent !important;
+  border-color: var(--psr-accent) !important;
+  color: var(--psr-accent) !important;
+}
+
+.button.is-link.is-outlined:hover {
+  background-color: var(--psr-accent) !important;
+  color: #ffffff !important;
+}
+
+.button.is-light {
+  background-color: #ffffff !important;
+  color: var(--psr-navy) !important;
+  border-color: transparent !important;
+}
+
+.button.is-light:hover {
+  background-color: var(--psr-light-bg) !important;
+  color: var(--psr-navy) !important;
+}
+
+/* ── Breadcrumb ─────────────────────────────────────────── */
+.breadcrumb a {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.breadcrumb li.is-active a {
+  color: #ffffff !important;
+}
+
+.breadcrumb li + li::before {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* ── Tables ─────────────────────────────────────────────── */
+.table {
+  background-color: #ffffff !important;
+  color: var(--psr-body-text) !important;
+}
+
+.table th {
+  color: var(--psr-heading) !important;
+  background-color: var(--psr-light-bg) !important;
+  border-color: var(--psr-border) !important;
+}
+
+.table td {
+  color: var(--psr-body-text) !important;
+  border-color: var(--psr-border) !important;
+}
+
+/* ── Footer ─────────────────────────────────────────────── */
+.footer-psr {
+  background-color: var(--psr-navy) !important;
+  color: #dce8f5;
+}
+
+.footer-psr p,
+.footer-psr li {
+  color: #dce8f5 !important;
+}
+
+.footer-psr strong {
+  color: #ffffff !important;
+}
+
+.footer-psr a {
+  color: #90c4f7 !important;
+}
+
+.footer-psr a:hover {
+  color: #ffffff !important;
+}
+
+/* ── Logos ──────────────────────────────────────────────── */
+.brand-logo-psr {
+  display: block;
+  max-height: 42px;
+  width: auto;
+  height: auto;
+}
+
+.brand-logo-yanco {
+  display: block;
+  max-height: 28px;
+  width: auto;
+  height: auto;
+}
+
+.brand-yanco-lockup {
+  border-left: 1px solid var(--psr-border);
+}
+
+.footer-psr .brand-yanco-lockup {
+  border-left-color: rgba(255, 255, 255, 0.2);
+}
+
+.brand-footer-logos {
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.brand-footer-logos .brand-logo-psr {
+  max-height: 52px;
+}
+
+.brand-footer-logos .brand-logo-yanco {
+  max-height: 36px;
+}
+
+/* ── Utility overrides ──────────────────────────────────── */
+.has-text-psr-accent {
+  color: var(--psr-accent) !important;
+}
+
+/* Force white text utilities to stay white (used in navy heroes) */
+.has-text-white {
+  color: #ffffff !important;
+}
+
+.has-text-white-ter {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.has-text-grey {
+  color: var(--psr-muted) !important;
+}
+
+.heading {
+  color: var(--psr-muted) !important;
+}
+
+hr {
+  background-color: var(--psr-border) !important;
+}
+
+/* Content module (Bulma .content) inherits correctly but lock it */
+.content p,
+.content li,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  color: var(--psr-body-text);
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  color: var(--psr-heading) !important;
+}
