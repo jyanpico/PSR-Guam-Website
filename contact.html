@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact &amp; quote | Pacific Supply Resources</title>
-  <meta name="description" content="Contact PSR Guam for wholesale quotes. Harmon Industrial Park, Guam. Phone 671-787-4007.">
+  <meta name="description" content="Contact PSR Guam for wholesale quotes. Harmon Industrial Park, Guam. Office 671-787-4007.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,16 +60,23 @@
           <div class="box has-background-light">
             <h2 class="title is-5">Yanco Corporation — PSR Guam</h2>
             <p>1797 Route 16<br>Harmon Industrial Park, Guam</p>
-            <p class="mt-4"><strong>Phone</strong><br><a href="tel:6717874007">671-787-4007</a></p>
-            <p><strong>Email</strong><br><a href="mailto:sales@psrguam.com">sales@psrguam.com</a><br><a href="mailto:admin@psrguam.com">admin@psrguam.com</a></p>
+            <p class="mt-4"><strong>Office</strong><br><a href="tel:6717874007">671-787-4007</a></p>
+            <p><strong>Email (Sales)</strong><br>
+              <span><strong>Industrial &amp; spare parts</strong>: <a href="mailto:sales@yancocorp.com">sales@yancocorp.com</a></span><br>
+              <span><strong>Medical &amp; janitorial</strong>: <a href="mailto:sales@psrguam.com">sales@psrguam.com</a></span>
+            </p>
+            <p class="mt-4"><strong>Sales team numbers</strong><br>
+              <a href="tel:6716879394">671-687-9394</a><br>
+              <a href="tel:6716883288">671-688-3288</a>
+            </p>
             <p class="mt-4"><strong>Hours</strong><br>Monday–Friday, 9:00 a.m. – 5:00 p.m.<br>Saturday–Sunday closed</p>
             <a class="button is-link is-fullwidth mt-4" href="https://maps.google.com/?q=1797+Route+16+Harmon+Industrial+Park+Guam" rel="noopener noreferrer" target="_blank">Get directions</a>
           </div>
         </div>
         <div class="column is-7">
           <h2 class="title is-4">Request a quote</h2>
-          <p class="mb-4">This form is static for demonstration. Wire it to your email service or CRM when you deploy.</p>
-          <form action="#" method="get">
+          <p class="mb-4">Submitting this form opens your email client and sends the request to our sales team.</p>
+          <form id="quoteForm" action="#" method="post">
             <div class="field is-horizontal">
               <div class="field-body">
                 <div class="field">
@@ -126,6 +133,33 @@
         burger.addEventListener("click", function () {
           burger.classList.toggle("is-active");
           menu.classList.toggle("is-active");
+        });
+      }
+
+      var quoteForm = document.getElementById("quoteForm");
+      if (quoteForm) {
+        quoteForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          var name = quoteForm.querySelector("#name")?.value || "";
+          var company = quoteForm.querySelector("#company")?.value || "";
+          var email = quoteForm.querySelector("#email")?.value || "";
+          var phone = quoteForm.querySelector("#phone")?.value || "";
+          var message = quoteForm.querySelector("#msg")?.value || "";
+
+          var subject = "PSR Guam quote request";
+          var body =
+            "Name: " + name + "\n" +
+            "Company: " + company + "\n" +
+            "Email: " + email + "\n" +
+            "Phone: " + phone + "\n\n" +
+            "Message:\n" + message;
+
+          // Static site: open the user's email client with a pre-filled message.
+          window.location.href =
+            "mailto:sales@psrguam.com" +
+            "?subject=" + encodeURIComponent(subject) +
+            "&body=" + encodeURIComponent(body);
         });
       }
     });

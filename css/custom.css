@@ -390,11 +390,35 @@ strong {
   height: auto;
 }
 
+.navbar .brand-logo-psr {
+  /* Bulma constrains navbar images; override for visibility */
+  max-height: 50px !important;
+}
+
 .brand-logo-yanco {
   display: block;
   max-height: 28px;
   width: auto;
   height: auto;
+}
+
+.navbar .brand-yanco-lockup img.brand-logo-yanco {
+  /* Top nav: replace the parent-logo image with text */
+  display: none;
+}
+
+.navbar .brand-yanco-lockup > p {
+  /* Hide the "A division of" label; we'll replace it with a single line. */
+  display: none;
+}
+
+.navbar .brand-yanco-lockup::after {
+  content: "PSR Guam";
+  display: block;
+  font-size: 0.875rem; /* Bulma is-size-7 */
+  line-height: 1.2;
+  color: var(--psr-muted);
+  white-space: nowrap;
 }
 
 .brand-yanco-lockup {
