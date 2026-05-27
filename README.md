@@ -1,8 +1,8 @@
-# Pacific Supply Resources — static site concepts
+# Pacific Supply Resources — PSR Guam website
 
-Three standalone **HTML + CSS** versions for **Pacific Supply Resources (PSR Guam)**, built with **[Bulma](https://bulma.io/)** (v1.0.4 via jsDelivr) and small per-version `css/custom.css` files.
+Static **HTML + CSS** site for **Pacific Supply Resources (PSR Guam)**, built with **[Bulma](https://bulma.io/)** (v1.0.4 via jsDelivr) and `css/custom.css`.
 
-## Pages (each version)
+## Pages
 
 | Page | Purpose |
 |------|--------|
@@ -18,37 +18,26 @@ Three standalone **HTML + CSS** versions for **Pacific Supply Resources (PSR Gua
 | `industries.html` | Sectors served |
 | `contact.html` | Address, hours, phones, emails, quote form (static demo) |
 
-All sites use a **fixed light theme** (`color-scheme: light` in CSS and HTML meta) so OS/browser dark mode does not change appearance.
-
-## Versions
-
-| Folder | Direction |
-|--------|-----------|
-| **`site-v1/`** | Classic corporate: navy gradient hero, light sections, cards, `Source Sans 3` |
-| **`site-v2/`** | Editorial minimal: warm paper background, serif display + `DM Sans`, bordered panels, product table |
-| **`site-v3/`** | Light industrial: white/amber accents, `Barlow`, high-contrast CTAs |
+The site uses a **fixed light theme** (`color-scheme: light` in CSS and HTML meta) so OS/browser dark mode does not change appearance.
 
 ## How to preview
 
-Open any version’s `index.html` in a browser (double-click or use a static server):
+Open `index.html` in a browser (double-click or use a static server):
 
 ```bash
-# optional: from repo root
 npx --yes serve .
 ```
 
-Then open `http://localhost:3000/site-v1/` (or v2 / v3).
+Then open `http://localhost:3000/`.
 
 ## Logos & company relationship
 
-Shared image files live in **`assets/`** at the repo root (sibling to `site-v1/`, `site-v2/`, `site-v3/`):
+Image files live in **`assets/`**:
 
-- `psr guam logo.jpg` — trade identity (**PSR Guam** is the DBA / public name for Pacific Supply Resources Guam)
-- `yanco logo.png` — **Yanco Corporation** (parent company)
+- `psr_guam_logo.jpg` — trade identity (**PSR Guam** is the DBA / public name for Pacific Supply Resources Guam)
+- `yanco_logo.png` — **Yanco Corporation** (parent company)
 
-Each site references them as `../assets/...` (URL-encoded spaces). The **navbar** shows the PSR Guam logo as the home link, with a compact **“A division of”** + Yanco logo on tablet/desktop. The **footer** repeats both logos and a one-line DBA / parent-company note.
-
-If you deploy a single site folder to the web root, **copy `assets/` alongside it** (or adjust image paths) so logos resolve.
+The **navbar** shows the PSR Guam logo as the home link, with a compact **“A division of”** + Yanco logo on tablet/desktop. The **footer** repeats both logos and a one-line DBA / parent-company note.
 
 **Note:** Quote forms use `action="#"` and do not submit until you wire them (e.g. Formspree, Netlify Forms, or your backend). Fonts and Bulma load from CDNs; an internet connection is required for first paint as written.
 
