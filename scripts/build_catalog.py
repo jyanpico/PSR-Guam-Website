@@ -81,7 +81,18 @@ def read_csv_rows(local_path, url_env_var):
         print(f"No {url_env_var} set - using local {local_path.relative_to(ROOT)}")
         raw = local_path.read_text(encoding="utf-8-sig")
     reader = csv.DictReader(io.StringIO(raw))
-    return [{(k or "").strip(): (v or "").strip() for k, v in row.items()} for row in reader]
+    rows = []
+    for i, row in enumerate(reader, start=2):  # row 1 is the header
+        # A stray unquoted comma in a hand-edited sheet gives a row more
+        # fields than there are headers - DictReader dumps the overflow
+        # into a list under the None key. Don't let that crash the whole
+        # build; warn and keep the row (missing fields default to "").
+        overflow = row.pop(None, None)
+        if overflow:
+            print(f"  ! {local_path.stem} row {i}: has more commas than columns "
+                  f"(extra: {overflow!r}) - check this row for a missing quote mark")
+        rows.append({(k or "").strip(): (v or "").strip() for k, v in row.items() if k is not None})
+    return rows
 
 
 def image_src(filename):
