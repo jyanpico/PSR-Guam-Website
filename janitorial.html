@@ -37,6 +37,12 @@
           <a class="navbar-item" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
         </div>
       </div>
@@ -62,16 +68,56 @@
       <div class="columns">
         <div class="column is-8">
           <p class="is-size-5">Keep facilities clean, safe, and presentable with chemicals, equipment, and consumables sized to your cleaning program.</p>
-          <h2 class="title is-4 mt-5">Common items we quote</h2>
-          <ul>
-            <li>Cleaning chemicals and disinfectants</li>
-            <li>Floor care machines and pads</li>
-            <li>Mops, buckets, and carts</li>
-            <li>Paper products and dispensers</li>
-            <li>Waste bags and liners</li>
-            <li>Odor control and specialty cleaners</li>
-          </ul>
-          <h2 class="title is-4 mt-5">Who it is for</h2>
+
+          <h2 class="title is-4 mt-5">Products we supply</h2>
+          <div class="product-showcase columns is-multiline">
+<!-- psr:products:start -->
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-cleaning-chemicals.html"><img src="/assets/products/cleaning%20chemicals.jpg" alt="Cleaning Chemicals" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-cleaning-chemicals.html">Cleaning Chemicals</a></p><p>Disinfectants, degreasers, and specialty cleaners for commercial cleaning programs.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-cleaning-chemicals.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-floor-care.html"><img src="/assets/products/floor%20care.jpeg" alt="Floor Care" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-floor-care.html">Floor Care</a></p><p>Machines, pads, and finishes for daily maintenance and deep-clean schedules.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-floor-care.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-mops-and-carts.html"><img src="/assets/products/mop%20cart.jpg" alt="Mops &amp; Carts" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-mops-and-carts.html">Mops &amp; Carts</a></p><p>Mops, buckets, wringers, and janitorial carts for efficient crew workflows.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-mops-and-carts.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-paper-products.html"><img src="/assets/products/paper%20towels.jpeg" alt="Paper Products" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-paper-products.html">Paper Products</a></p><p>Towels, tissue, and dispensers for restrooms and common areas.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-paper-products.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-waste-and-liners.html"><img src="/assets/products/garbage%20liners.jpeg" alt="Waste &amp; Liners" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-waste-and-liners.html">Waste &amp; Liners</a></p><p>Can liners, waste bags, and handling supplies for facility waste programs.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-waste-and-liners.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/janitorial-odor-control.html"><img src="/assets/products/odor%20control.jpeg" alt="Odor Control" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/janitorial-odor-control.html">Odor Control</a></p><p>Odor control products and specialty cleaners for high-traffic facilities.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/janitorial-odor-control.html">View products</a></footer>
+              </div>
+            </div>
+          <!-- psr:products:end -->
+          </div>
+
+          <h2 class="title is-4 mt-6">Who it is for</h2>
           <p>Offices, hospitality, healthcare, schools, and industrial facilities.</p>
           <p class="mt-5"><a class="button is-link" href="contact.html">Request a quote for Janitorial & Cleaning</a></p>
         </div>
@@ -85,8 +131,7 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer footer-psr">
+<footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
         <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
@@ -97,6 +142,8 @@
       <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

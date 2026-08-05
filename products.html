@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Products &amp; categories | Pacific Supply Resources</title>
-  <meta name="description" content="Industrial parts, PPE, site equipment, medical supplies, janitorial, and tools — wholesale through PSR Guam.">
+  <meta name="description" content="Industrial parts, PPE, site equipment, medical supplies, janitorial, and office supplies — wholesale through PSR Guam.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,6 +38,12 @@
           <a class="navbar-item" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
         </div>
       </div>
@@ -56,60 +62,60 @@
   <section class="section">
     <div class="container">
       <div class="columns is-multiline">
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="machinery.html">Heavy machinery &amp; spare parts</a></p></header>
-            <div class="card-content"><p>Bearings, filters, belts, hydraulic components, engine parts, and essential spares for fleets and fixed plant equipment.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="machinery.html"><img src="assets/products/engine.jpg" alt="Heavy machinery and spare parts" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="machinery.html">Heavy machinery &amp; spare parts</a></p><p>Bearings, filters, belts, hydraulic components, engine parts, and essential spares for fleets and fixed plant equipment.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="machinery.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="safety.html">Safety &amp; PPE</a></p></header>
-            <div class="card-content"><p>Hard hats, gloves, eyewear, high-visibility apparel, respiratory protection, and related compliance-oriented products.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="safety.html"><img src="assets/products/hardhat.jpg" alt="Safety and PPE equipment" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="safety.html">Safety &amp; PPE</a></p><p>Hard hats, gloves, eyewear, high-visibility apparel, respiratory protection, and related compliance-oriented products.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="safety.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="site-equipment.html">Site equipment</a></p></header>
-            <div class="card-content"><p>Construction site equipment, tools, and supplies that support safe, efficient operations across job sites.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="site-equipment.html"><img src="assets/products/ladder.png" alt="Site equipment" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="site-equipment.html">Site equipment</a></p><p>Construction site equipment, tools, and supplies that support safe, efficient operations across job sites.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="site-equipment.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="medical.html">Medical supplies &amp; parts</a></p></header>
-            <div class="card-content"><p>Equipment components, replacement parts, and healthcare consumables for hospitals, clinics, and medical facilities.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="medical.html"><img src="assets/products/patientcare.jpg" alt="Medical supplies and parts" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="medical.html">Medical supplies &amp; parts</a></p><p>Equipment components, replacement parts, and healthcare consumables for hospitals, clinics, and medical facilities.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="medical.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="janitorial.html">Janitorial &amp; cleaning</a></p></header>
-            <div class="card-content"><p>Chemicals, disinfectants, floor care, mops, waste handling, paper products, and facility hygiene programs.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="janitorial.html"><img src="assets/products/cleaning%20chemicals.jpg" alt="Janitorial and cleaning supplies" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="janitorial.html">Janitorial &amp; cleaning</a></p><p>Chemicals, disinfectants, floor care, mops, waste handling, paper products, and facility hygiene programs.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="janitorial.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="hotel-supplies.html">Hotel supplies</a></p></header>
-            <div class="card-content"><p>Guestroom, housekeeping, and facility consumables for hotels and hospitality operations.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="hotel-supplies.html"><img src="assets/products/hotel%20guest%20amm.jpeg" alt="Hotel supplies" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="hotel-supplies.html">Hotel supplies</a></p><p>Guestroom, housekeeping, and facility consumables for hotels and hospitality operations.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="hotel-supplies.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="lubricants-coolants.html">Lubricants &amp; coolants</a></p></header>
-            <div class="card-content"><p>Lubricating oils, greases, hydraulic fluids, and cooling system chemicals/components for machinery and vehicles.</p></div>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="lubricants-coolants.html"><img src="assets/products/lubricant%20oil%20and%20g.jpeg" alt="Lubricants and coolants" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="lubricants-coolants.html">Lubricants &amp; coolants</a></p><p>Lubricating oils, greases, hydraulic fluids, and cooling system chemicals/components for machinery and vehicles.</p></div>
             <footer class="card-footer"><a class="card-footer-item" href="lubricants-coolants.html">View category</a></footer>
           </div>
         </div>
-        <div class="column is-6">
-          <div class="card">
-            <header class="card-header has-background-light"><p class="card-header-title"><a href="industrial-tools.html">Industrial tools &amp; hardware</a></p></header>
-            <div class="card-content"><p>Industrial-grade tools, maintenance equipment, fasteners, and hardware for repairs and daily operations.</p></div>
-            <footer class="card-footer"><a class="card-footer-item" href="industrial-tools.html">View category</a></footer>
+        <div class="column is-4">
+          <div class="card category-card">
+            <a class="category-card-media" href="office-supplies.html"><img src="assets/products/paper%20towels.jpeg" alt="Office supplies" loading="lazy"></a>
+            <div class="card-content"><p class="card-header-title" style="padding:0"><a href="office-supplies.html">Office supplies</a></p><p>Paper products, facility consumables, cleaning supplies, and everyday items for offices and administrative operations.</p></div>
+            <footer class="card-footer"><a class="card-footer-item" href="office-supplies.html">View category</a></footer>
           </div>
         </div>
       </div>
@@ -131,6 +137,8 @@
       <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

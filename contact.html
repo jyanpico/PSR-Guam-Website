@@ -38,6 +38,12 @@
           <a class="navbar-item is-active" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
         </div>
       </div>
@@ -113,8 +119,7 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer footer-psr">
+<footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
         <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
@@ -125,6 +130,8 @@
       <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

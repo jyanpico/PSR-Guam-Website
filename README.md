@@ -14,7 +14,7 @@ Static **HTML + CSS** site for **Pacific Supply Resources (PSR Guam)**, built wi
 | `site-equipment.html` | Site Equipment |
 | `medical.html` | Medical Supplies & Parts |
 | `janitorial.html` | Janitorial & Cleaning |
-| `industrial-tools.html` | Industrial Tools & Equipment |
+| `office-supplies.html` | Office supplies |
 | `hotel-supplies.html` | Hotel supplies category |
 | `lubricants-coolants.html` | Lubricants & coolants category |
 | `industries.html` | Sectors served |
@@ -31,6 +31,23 @@ npx --yes serve .
 ```
 
 Then open `http://localhost:3000/`.
+
+## Product catalog & search
+
+Individual products (not just categories) now have their own pages,
+generated from `data/products.csv` by `scripts/build_catalog.py`. This
+also powers the search-with-suggestions box in the navbar (Fuse.js).
+
+- **Add/edit products**: see [`docs/adding-products.md`](docs/adding-products.md)
+  for the full non-technical workflow (a Google Sheet + one click to publish).
+- **Regenerate everything locally**: `python3 scripts/build_catalog.py`
+  (needs Python 3, no extra installs). This rewrites `assets/data/products.json`,
+  the product grid on every category page (between the
+  `<!-- psr:products:start/end -->` markers), and one static page per
+  product under `products/`.
+- **On Netlify**: this script is the build command (`netlify.toml`), so
+  it runs automatically on every deploy and can pull live data from a
+  published Google Sheet via the `PRODUCTS_CSV_URL` environment variable.
 
 ## Logos & company relationship
 

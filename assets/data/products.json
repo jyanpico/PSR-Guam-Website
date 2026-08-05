@@ -1,0 +1,650 @@
+[
+  {
+    "type": "subcategory",
+    "name": "Bearings & Seals",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Heavy-duty bearings and sealing solutions for rotating equipment and undercarriage assemblies.",
+    "image": "bearings.jpg",
+    "keywords": [],
+    "url": "/products/machinery-bearings-and-seals.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Filters",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Oil, air, and fuel filters matched to OEM specs for fleets, generators, and fixed plant.",
+    "image": "fuelfilter.png",
+    "keywords": [],
+    "url": "/products/machinery-filters.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hydraulics",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Hydraulic hoses, fittings, pumps, and components for excavators, loaders, and support equipment.",
+    "image": "Hydraulic-Hose-Bank.png",
+    "keywords": [],
+    "url": "/products/machinery-hydraulics.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Drive Belts & Chains",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Belts, chains, and drive components to keep power transfer reliable under load.",
+    "image": "beltandchain.jpg",
+    "keywords": [],
+    "url": "/products/machinery-drive-belts-and-chains.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Engine & Cooling",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Engine components, gaskets, and cooling system parts for diesel and industrial power units.",
+    "image": "engine.jpg",
+    "keywords": [],
+    "url": "/products/machinery-engine-and-cooling.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Undercarriage & Wear",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Track, roller, and wear components that extend equipment life between major overhauls.",
+    "image": "undercarriage.jpg",
+    "keywords": [],
+    "url": "/products/machinery-undercarriage-and-wear.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hard Hats & Bump Caps",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "ANSI-rated head protection for construction, industrial, and facility work environments.",
+    "image": "hardhat.jpg",
+    "keywords": [],
+    "url": "/products/safety-hard-hats-and-bump-caps.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Work Gloves",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "General-duty, cut-resistant, and chemical-resistant gloves for daily tasks and specialty jobs.",
+    "image": "construction glove.jpeg",
+    "keywords": [],
+    "url": "/products/safety-work-gloves.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Eyewear & Face Shields",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "Safety glasses, goggles, and face shields for impact, splash, and optical clarity requirements.",
+    "image": "saftey eyewear.jpg",
+    "keywords": [],
+    "url": "/products/safety-eyewear-and-face-shields.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hi-Vis Apparel",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "Vests, shirts, and outerwear that keep crews visible on active sites and roadways.",
+    "image": "saftey vest.avif",
+    "keywords": [],
+    "url": "/products/safety-hi-vis-apparel.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Respiratory Protection",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "Masks, cartridges, and respirators for dust, fumes, and regulated workplace exposures.",
+    "image": "masks.avif",
+    "keywords": [],
+    "url": "/products/safety-respiratory-protection.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hearing & Fall Prevention",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "Ear protection, harnesses, and accessories that support compliance programs.",
+    "image": "hearingprot.avif",
+    "keywords": [],
+    "url": "/products/safety-hearing-and-fall-prevention.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hand & Power Tools",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Everyday tools and accessories crews rely on for installation, repair, and build-out work.",
+    "image": "power tools.jpg",
+    "keywords": [],
+    "url": "/products/site-equipment-hand-and-power-tools.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Ladders & Access",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Ladders, platforms, and access equipment sized to your site safety requirements.",
+    "image": "ladder.png",
+    "keywords": [],
+    "url": "/products/site-equipment-ladders-and-access.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Material Handling",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Carts, dollies, and lifting aids that keep materials moving efficiently on site.",
+    "image": "material handling aid .jpg",
+    "keywords": [],
+    "url": "/products/site-equipment-material-handling.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Signage & Barriers",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Temporary signage, cones, and barriers for traffic control and hazard communication.",
+    "image": "tempsignage.png",
+    "keywords": [],
+    "url": "/products/site-equipment-signage-and-barriers.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Fasteners & Anchors",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Anchors, bolts, and fastening supplies for structural and general construction tasks.",
+    "image": "fasteners.avif",
+    "keywords": [],
+    "url": "/products/site-equipment-fasteners-and-anchors.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Job-site Consumables",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Tape, markers, tie-downs, and other high-turnover items for daily operations.",
+    "image": "general mater.jpg",
+    "keywords": [],
+    "url": "/products/site-equipment-job-site-consumables.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Facility Consumables",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Everyday healthcare facility supplies for wards, clinics, and support areas.",
+    "image": "facility consumables.jpg",
+    "keywords": [],
+    "url": "/products/medical-facility-consumables.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Equipment Parts",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Replacement components for clinical and support equipment when specs are provided.",
+    "image": "equipment replacement.jpg",
+    "keywords": [],
+    "url": "/products/medical-equipment-parts.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Diagnostic Supplies",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Support supplies for labs, diagnostics, and clinical workflow areas.",
+    "image": "medical diagnostic.jpg",
+    "keywords": [],
+    "url": "/products/medical-diagnostic-supplies.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Patient Care",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Patient-care related products sourced to your facility requirements.",
+    "image": "medical patient care.jpeg",
+    "keywords": [],
+    "url": "/products/medical-patient-care.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Clinical Maintenance",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Maintenance parts and consumables that keep biomedical equipment in service.",
+    "image": "clinical maintinance.jpg",
+    "keywords": [],
+    "url": "/products/medical-clinical-maintenance.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Infection Control",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Hygiene and infection-control items for regulated healthcare environments.",
+    "image": "medical infection contorl.jpeg",
+    "keywords": [],
+    "url": "/products/medical-infection-control.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Cleaning Chemicals",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Disinfectants, degreasers, and specialty cleaners for commercial cleaning programs.",
+    "image": "cleaning chemicals.jpg",
+    "keywords": [],
+    "url": "/products/janitorial-cleaning-chemicals.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Floor Care",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Machines, pads, and finishes for daily maintenance and deep-clean schedules.",
+    "image": "floor care.jpeg",
+    "keywords": [],
+    "url": "/products/janitorial-floor-care.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Mops & Carts",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Mops, buckets, wringers, and janitorial carts for efficient crew workflows.",
+    "image": "mop cart.jpg",
+    "keywords": [],
+    "url": "/products/janitorial-mops-and-carts.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Paper Products",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Towels, tissue, and dispensers for restrooms and common areas.",
+    "image": "paper towels.jpeg",
+    "keywords": [],
+    "url": "/products/janitorial-paper-products.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Waste & Liners",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Can liners, waste bags, and handling supplies for facility waste programs.",
+    "image": "garbage liners.jpeg",
+    "keywords": [],
+    "url": "/products/janitorial-waste-and-liners.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Odor Control",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Odor control products and specialty cleaners for high-traffic facilities.",
+    "image": "odor control.jpeg",
+    "keywords": [],
+    "url": "/products/janitorial-odor-control.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Guest Amenities",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "In-room consumables and guest-facing products for hotels and resorts.",
+    "image": "hotel guest amm.jpeg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-guest-amenities.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Linens & Laundry",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Housekeeping linens and laundry program supplies for daily turnover.",
+    "image": "hotel linens and .jpeg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-linens-and-laundry.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Housekeeping Chemicals",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Cleaning chemicals sized to guestroom, lobby, and back-of-house programs.",
+    "image": "cleaning chemicals.jpeg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-housekeeping-chemicals.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Toiletries & Paper",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Toiletries, tissue, and paper products for guest and staff areas.",
+    "image": "hotel toilitires and paper.jpeg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-toiletries-and-paper.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Waste & Housekeeping Tools",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Liners, carts, and tools that keep housekeeping teams equipped.",
+    "image": "hotel waste and .jpg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-waste-and-housekeeping-tools.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Facility Maintenance",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Maintenance consumables for engineering and facilities teams.",
+    "image": "hotel facility maintinence.jpeg",
+    "keywords": [],
+    "url": "/products/hotel-supplies-facility-maintenance.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Oils & Greases",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Industrial lubricating oils and greases for engines, gearboxes, and bearing assemblies.",
+    "image": "lubricant oil and g.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-oils-and-greases.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hydraulic Fluids",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Hydraulic oils and specialty fluids matched to equipment manufacturer requirements.",
+    "image": "lubricant hydraluic fluid.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-hydraulic-fluids.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Coolants & Antifreeze",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Engine coolants and antifreeze for fleets, generators, and heavy equipment.",
+    "image": "coolant lubricant.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-coolants-and-antifreeze.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Cooling System Parts",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Radiator hoses, clamps, and cooling components for maintenance programs.",
+    "image": "cooling system parts.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-cooling-system-parts.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Compressor Oils",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Compressor oils and related consumables for industrial air systems.",
+    "image": "lube conpresser oil.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-compressor-oils.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Additives & Specialty Fluids",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Conditioners, additives, and specialty fluids for extended equipment life.",
+    "image": "addaditves lubericant.jpeg",
+    "keywords": [],
+    "url": "/products/lubricants-coolants-additives-and-specialty-fluids.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Paper Products",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Towels, tissue, and dispensers for restrooms, break rooms, and shared office areas.",
+    "image": "paper towels.jpeg",
+    "keywords": [],
+    "url": "/products/office-supplies-paper-products.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Facility Consumables",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Everyday office consumables for administrative teams, storerooms, and shared workspaces.",
+    "image": "facility consumables.jpeg",
+    "keywords": [],
+    "url": "/products/office-supplies-facility-consumables.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Hand Hygiene",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Soap, sanitizer, and restroom hygiene products for offices and customer-facing facilities.",
+    "image": "hygiene.jpg",
+    "keywords": [],
+    "url": "/products/office-supplies-hand-hygiene.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Cleaning Supplies",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Surface cleaners, disinfectants, and maintenance chemicals for office environments.",
+    "image": "cleaning chemicals.jpg",
+    "keywords": [],
+    "url": "/products/office-supplies-cleaning-supplies.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Waste & Liners",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Can liners and waste handling supplies for desks, kitchens, and facility trash programs.",
+    "image": "garbage liners.jpeg",
+    "keywords": [],
+    "url": "/products/office-supplies-waste-and-liners.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Air Care & Odor Control",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Odor control and air-care products for lobbies, restrooms, and shared office spaces.",
+    "image": "odor control.jpeg",
+    "keywords": [],
+    "url": "/products/office-supplies-air-care-and-odor-control.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "machinery",
+    "categoryName": "Heavy Machinery & Spare Parts",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/machinery-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/safety-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/site-equipment-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "medical",
+    "categoryName": "Medical Supplies & Parts",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/medical-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/janitorial-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "hotel-supplies",
+    "categoryName": "Hotel Supplies",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/hotel-supplies-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/lubricants-coolants-sample-product-replace-this-row.html"
+  },
+  {
+    "type": "product",
+    "name": "Sample Product (replace this row)",
+    "brand": "",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
+    "image": "",
+    "keywords": [
+      "sample",
+      "placeholder",
+      "example"
+    ],
+    "url": "/products/items/office-supplies-sample-product-replace-this-row.html"
+  }
+]

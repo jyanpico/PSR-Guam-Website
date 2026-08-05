@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toiletries &amp; Paper | Pacific Supply Resources</title>
+  <meta name="description" content="Toiletries, tissue, and paper products for guest and staff areas.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>body { font-family: "Source Sans 3", system-ui, sans-serif; }</style>
+</head>
+<body>
+  <nav class="navbar is-white is-psr" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand is-flex is-align-items-center">
+        <a class="navbar-item brand-lockup py-2" href="/index.html" title="Pacific Supply Resources Guam (DBA PSR Guam)">
+          <img class="brand-logo-psr" src="/assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+        </a>
+        <div class="navbar-item brand-yanco-lockup is-hidden-mobile py-2 pl-4">
+          <p class="is-size-7 has-text-grey mb-1">A division of</p>
+          <img class="brand-logo-yanco" src="/assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+        </div>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+          <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/index.html">Home</a>
+          <a class="navbar-item" href="/about.html">About</a>
+          <a class="navbar-item" href="/products.html">Products</a>
+          <a class="navbar-item" href="/industries.html">Industries</a>
+          <a class="navbar-item" href="/contact.html">Contact</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
+          <div class="navbar-item"><a class="button is-link" href="/contact.html">Request a quote</a></div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-small has-background-psr-navy">
+    <div class="hero-body">
+      <div class="container">
+        <nav class="breadcrumb has-text-white-ter" aria-label="breadcrumbs">
+          <ul>
+            <li><a href="/products.html" class="has-text-white-ter">Products</a></li>
+            <li><a href="/hotel-supplies.html" class="has-text-white-ter">Hotel Supplies</a></li>
+            <li class="is-active"><a href="#" aria-current="page" class="has-text-white">Toiletries &amp; Paper</a></li>
+          </ul>
+        </nav>
+        <h1 class="title is-2 has-text-white">Toiletries &amp; Paper</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container content">
+      <div class="columns">
+        <div class="column is-8">
+          <figure class="image mb-5 product-detail-media">
+            <img src="/assets/products/hotel%20toilitires%20and%20paper.jpeg" alt="Toiletries &amp; Paper" loading="lazy">
+          </figure>
+
+          <p class="is-size-5">Toiletries, tissue, and paper products for guest and staff areas.</p>
+
+          <div class="message is-info">
+            <div class="message-body">
+              We stock a wide variety in this category - specific brands, sizes, and part
+              numbers vary by job. Tell us what you need and we'll quote exact matches.
+            </div>
+          </div>
+
+          <p class="mt-5"><a class="button is-link is-medium" href="/contact.html">Request a quote for Toiletries &amp; Paper</a></p>
+        </div>
+        <div class="column is-4">
+          <div class="box has-background-light">
+            <p class="heading">Need something specific?</p>
+            <p>Send part numbers, photos, or manufacturer details to <a href="mailto:sales@psrguam.com">sales@psrguam.com</a> or call <a href="tel:6717874007">671-787-4007</a>.</p>
+            <a class="button is-link is-outlined is-fullwidth mt-4" href="/hotel-supplies.html">Back to Hotel Supplies</a>
+            <a class="button is-light is-fullwidth mt-2" href="/products.html">All categories</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer footer-psr">
+    <div class="container content has-text-centered">
+      <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
+        <img class="brand-logo-psr" src="/assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+        <img class="brand-logo-yanco" src="/assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+      </div>
+      <p class="is-size-7 mb-3">PSR Guam is the public trade name (DBA) for <strong>Pacific Supply Resources</strong>. <strong>Yanco Corporation</strong> is the parent company.</p>
+      <p><strong>Pacific Supply Resources</strong> · Yanco Corporation · Guam</p>
+      <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="/contact.html">Contact</a></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var burger = document.querySelector(".navbar-burger");
+      var menu = document.getElementById("navMenu");
+      if (burger && menu) {
+        burger.addEventListener("click", function () {
+          burger.classList.toggle("is-active");
+          menu.classList.toggle("is-active");
+        });
+      }
+    });
+  </script>
+</body>
+</html>

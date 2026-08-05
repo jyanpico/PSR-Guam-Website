@@ -37,6 +37,12 @@
           <a class="navbar-item" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
         </div>
       </div>
@@ -62,16 +68,56 @@
       <div class="columns">
         <div class="column is-8">
           <p class="is-size-5">Keep hotels stocked with dependable sourcing for guestroom, housekeeping, and facility consumables.</p>
-          <h2 class="title is-4 mt-5">Common items we quote</h2>
-          <ul>
-            <li>Guest amenities and consumables</li>
-            <li>Linens and laundry supplies</li>
-            <li>Hospitality cleaning chemicals</li>
-            <li>Toiletries and paper products</li>
-            <li>Waste liners and housekeeping tools</li>
-            <li>Facility maintenance supplies</li>
-          </ul>
-          <h2 class="title is-4 mt-5">Who it is for</h2>
+
+          <h2 class="title is-4 mt-5">Products we supply</h2>
+          <div class="product-showcase columns is-multiline">
+<!-- psr:products:start -->
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-guest-amenities.html"><img src="/assets/products/hotel%20guest%20amm.jpeg" alt="Guest Amenities" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-guest-amenities.html">Guest Amenities</a></p><p>In-room consumables and guest-facing products for hotels and resorts.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-guest-amenities.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-linens-and-laundry.html"><img src="/assets/products/hotel%20linens%20and%20.jpeg" alt="Linens &amp; Laundry" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-linens-and-laundry.html">Linens &amp; Laundry</a></p><p>Housekeeping linens and laundry program supplies for daily turnover.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-linens-and-laundry.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-housekeeping-chemicals.html"><img src="/assets/products/cleaning%20chemicals.jpeg" alt="Housekeeping Chemicals" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-housekeeping-chemicals.html">Housekeeping Chemicals</a></p><p>Cleaning chemicals sized to guestroom, lobby, and back-of-house programs.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-housekeeping-chemicals.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-toiletries-and-paper.html"><img src="/assets/products/hotel%20toilitires%20and%20paper.jpeg" alt="Toiletries &amp; Paper" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-toiletries-and-paper.html">Toiletries &amp; Paper</a></p><p>Toiletries, tissue, and paper products for guest and staff areas.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-toiletries-and-paper.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-waste-and-housekeeping-tools.html"><img src="/assets/products/hotel%20waste%20and%20.jpg" alt="Waste &amp; Housekeeping Tools" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-waste-and-housekeeping-tools.html">Waste &amp; Housekeeping Tools</a></p><p>Liners, carts, and tools that keep housekeeping teams equipped.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-waste-and-housekeeping-tools.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/hotel-supplies-facility-maintenance.html"><img src="/assets/products/hotel%20facility%20maintinence.jpeg" alt="Facility Maintenance" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/hotel-supplies-facility-maintenance.html">Facility Maintenance</a></p><p>Maintenance consumables for engineering and facilities teams.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/hotel-supplies-facility-maintenance.html">View products</a></footer>
+              </div>
+            </div>
+          <!-- psr:products:end -->
+          </div>
+
+          <h2 class="title is-4 mt-6">Who it is for</h2>
           <p>Hotels, resorts, and hospitality operations that need reliable replenishment with clear communication.</p>
           <p class="mt-5"><a class="button is-link" href="contact.html">Request a quote for Hotel Supplies</a></p>
         </div>
@@ -85,8 +131,7 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer footer-psr">
+<footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
         <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
@@ -97,6 +142,8 @@
       <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

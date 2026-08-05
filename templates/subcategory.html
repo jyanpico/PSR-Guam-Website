@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="color-scheme" content="light">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Industrial Tools & Equipment | Pacific Supply Resources</title>
-  <meta name="description" content="Industrial tools, maintenance equipment, and hardware for Guam operations.">
+  <title>%%PAGE_TITLE%%</title>
+  <meta name="description" content="%%META_DESCRIPTION%%">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="/css/custom.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
@@ -17,12 +17,12 @@
   <nav class="navbar is-white is-psr" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand is-flex is-align-items-center">
-        <a class="navbar-item brand-lockup py-2" href="index.html" title="Pacific Supply Resources Guam (DBA PSR Guam)">
-          <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+        <a class="navbar-item brand-lockup py-2" href="/index.html" title="Pacific Supply Resources Guam (DBA PSR Guam)">
+          <img class="brand-logo-psr" src="/assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
         </a>
         <div class="navbar-item brand-yanco-lockup is-hidden-mobile py-2 pl-4">
           <p class="is-size-7 has-text-grey mb-1">A division of</p>
-          <img class="brand-logo-yanco" src="assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+          <img class="brand-logo-yanco" src="/assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
         </div>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
           <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
@@ -30,14 +30,20 @@
       </div>
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="index.html">Home</a>
-          <a class="navbar-item" href="about.html">About</a>
-          <a class="navbar-item" href="products.html">Products</a>
-          <a class="navbar-item" href="industries.html">Industries</a>
-          <a class="navbar-item" href="contact.html">Contact</a>
+          <a class="navbar-item" href="/index.html">Home</a>
+          <a class="navbar-item" href="/about.html">About</a>
+          <a class="navbar-item" href="/products.html">Products</a>
+          <a class="navbar-item" href="/industries.html">Industries</a>
+          <a class="navbar-item" href="/contact.html">Contact</a>
         </div>
         <div class="navbar-end">
-          <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
+          <div class="navbar-item"><a class="button is-link" href="/contact.html">Request a quote</a></div>
         </div>
       </div>
     </div>
@@ -48,11 +54,12 @@
       <div class="container">
         <nav class="breadcrumb has-text-white-ter" aria-label="breadcrumbs">
           <ul>
-            <li><a href="products.html" class="has-text-white-ter">Products</a></li>
-            <li class="is-active"><a href="industrial-tools.html" aria-current="page" class="has-text-white">Industrial Tools & Equipment</a></li>
+            <li><a href="/products.html" class="has-text-white-ter">Products</a></li>
+            <li><a href="%%CATEGORY_URL%%" class="has-text-white-ter">%%CATEGORY_NAME%%</a></li>
+            <li class="is-active"><a href="#" aria-current="page" class="has-text-white">%%SUBCATEGORY_NAME%%</a></li>
           </ul>
         </nav>
-        <h1 class="title is-2 has-text-white">Industrial Tools &amp; Equipment</h1>
+        <h1 class="title is-2 has-text-white">%%SUBCATEGORY_NAME%%</h1>
       </div>
     </div>
   </section>
@@ -61,42 +68,40 @@
     <div class="container content">
       <div class="columns">
         <div class="column is-8">
-          <p class="is-size-5">Industrial-grade tools and hardware for maintenance shops, storerooms, and field repairs—built for daily use in demanding environments.</p>
-          <h2 class="title is-4 mt-5">Common items we quote</h2>
-          <ul>
-            <li>Hand tools and tool storage</li>
-            <li>Power tool accessories</li>
-            <li>Cutting and abrasives</li>
-            <li>Fasteners and anchors</li>
-            <li>Shop supplies and lubricants</li>
-            <li>Measurement and testing tools</li>
-          </ul>
-          <h2 class="title is-4 mt-5">Who it is for</h2>
-          <p>Maintenance departments, fabrication shops, marine support, and industrial facilities.</p>
-          <p class="mt-5"><a class="button is-link" href="contact.html">Request a quote for Industrial Tools & Equipment</a></p>
+          <figure class="image mb-5 product-detail-media">
+            <img src="%%IMAGE_SRC%%" alt="%%IMAGE_ALT%%" loading="lazy">
+          </figure>
+
+          <p class="is-size-5">%%DESCRIPTION%%</p>
+
+%%PRODUCTS_BLOCK%%
+
+          <p class="mt-5"><a class="button is-link is-medium" href="/contact.html">Request a quote for %%SUBCATEGORY_NAME%%</a></p>
         </div>
         <div class="column is-4">
           <div class="box has-background-light">
             <p class="heading">Need something specific?</p>
-            <p>Send part numbers, photos, or manufacturer details to <a href="mailto:sales@psrguam.com">sales@psrguam.com</a> or call <a href="tel:6717874007">671-787-4007</a>.</p>
-            <a class="button is-link is-outlined is-fullwidth mt-4" href="products.html">All categories</a>
+            <p>Send part numbers, photos, or manufacturer details to <a href="mailto:%%QUOTE_EMAIL%%">%%QUOTE_EMAIL%%</a> or call <a href="tel:%%QUOTE_PHONE_TEL%%">%%QUOTE_PHONE%%</a>.</p>
+            <a class="button is-link is-outlined is-fullwidth mt-4" href="%%CATEGORY_URL%%">Back to %%CATEGORY_NAME%%</a>
+            <a class="button is-light is-fullwidth mt-2" href="/products.html">All categories</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
-        <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
-        <img class="brand-logo-yanco" src="assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
+        <img class="brand-logo-psr" src="/assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
+        <img class="brand-logo-yanco" src="/assets/yanco_logo.png" alt="Yanco Corporation — parent company" loading="lazy">
       </div>
       <p class="is-size-7 mb-3">PSR Guam is the public trade name (DBA) for <strong>Pacific Supply Resources</strong>. <strong>Yanco Corporation</strong> is the parent company.</p>
       <p><strong>Pacific Supply Resources</strong> · Yanco Corporation · Guam</p>
-      <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
+      <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="/contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

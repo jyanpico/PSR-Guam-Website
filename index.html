@@ -38,6 +38,12 @@
           <a class="navbar-item" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item">
             <a class="button is-link" href="contact.html">Request a quote</a>
           </div>
@@ -47,8 +53,9 @@
   </nav>
 
   <section class="hero is-medium hero-v1">
-    <div class="hero-body">
+    <div class="hero-body" style="padding-top: 4rem">
       <div class="container">
+        <p class="title is-1 has-text-white mb-5 pb-5">YANCO CORPORATION</p>
         <p class="title is-2 has-text-white">Keep your operation stocked.</p>
         <p class="subtitle is-4 has-text-white-ter">We wholesale, source, and deliver industrial and facility supplies so your team stays productive—without the extra legwork.</p>
         <div class="buttons">
@@ -84,21 +91,39 @@
       <h2 class="title is-3 has-text-centered mb-6">What we supply</h2>
       <div class="columns is-multiline">
         <div class="column is-4">
-          <div class="box h-100">
-            <h3 class="title is-5"><a href="machinery.html">Heavy machinery &amp; spare parts</a></h3>
-            <p>Bearings, filters, belts, hydraulics, engine parts, and critical spares to reduce downtime.</p>
+          <div class="card category-card">
+            <a class="category-card-media" href="machinery.html">
+              <img src="assets/products/engine.jpg" alt="Heavy machinery and spare parts">
+            </a>
+            <div class="card-content">
+              <h3 class="title is-5"><a href="machinery.html">Heavy machinery &amp; spare parts</a></h3>
+              <p>Bearings, filters, belts, hydraulics, engine parts, and critical spares to reduce downtime.</p>
+            </div>
+            <footer class="card-footer"><a class="card-footer-item" href="machinery.html">View category</a></footer>
           </div>
         </div>
         <div class="column is-4">
-          <div class="box h-100">
-            <h3 class="title is-5"><a href="safety.html">Safety &amp; PPE</a></h3>
-            <p>Certified protective equipment for compliance and everyday job-site safety.</p>
+          <div class="card category-card">
+            <a class="category-card-media" href="safety.html">
+              <img src="assets/products/hardhat.jpg" alt="Safety and PPE equipment">
+            </a>
+            <div class="card-content">
+              <h3 class="title is-5"><a href="safety.html">Safety &amp; PPE</a></h3>
+              <p>Certified protective equipment for compliance and everyday job-site safety.</p>
+            </div>
+            <footer class="card-footer"><a class="card-footer-item" href="safety.html">View category</a></footer>
           </div>
         </div>
         <div class="column is-4">
-          <div class="box h-100">
-            <h3 class="title is-5"><a href="janitorial.html">Janitorial &amp; cleaning</a></h3>
-            <p>Chemicals, disinfectants, floor care, waste handling, paper products, and facility hygiene programs.</p>
+          <div class="card category-card">
+            <a class="category-card-media" href="janitorial.html">
+              <img src="assets/products/hygiene.jpg" alt="Janitorial and cleaning supplies">
+            </a>
+            <div class="card-content">
+              <h3 class="title is-5"><a href="janitorial.html">Janitorial &amp; cleaning</a></h3>
+              <p>Chemicals, disinfectants, floor care, waste handling, paper products, and facility hygiene programs.</p>
+            </div>
+            <footer class="card-footer"><a class="card-footer-item" href="janitorial.html">View category</a></footer>
           </div>
         </div>
       </div>
@@ -129,6 +154,17 @@
     </div>
   </section>
 
+  <section class="section partners-section has-background-light">
+    <div class="container">
+      <div class="partners-panel">
+        <h2 class="title is-4 partners-heading">Working with top international brands</h2>
+        <figure class="partners-figure">
+          <img class="partners-banner" src="assets/partner-brands.png" alt="International industrial and automation brand partners including ABB, Siemens, Schneider Electric, and Mitsubishi" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
@@ -141,6 +177,8 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");

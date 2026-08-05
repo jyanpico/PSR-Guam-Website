@@ -1,0 +1,10 @@
+[build]
+  command = "python3 scripts/build_catalog.py"
+  publish = "."
+
+# Set in the Netlify UI instead of here, since it's a per-site value and
+# may need to change without a code deploy:
+#   Site settings -> Environment variables -> PRODUCTS_CSV_URL
+#   = the "Publish to web" CSV link for the products Google Sheet.
+#
+# Without it, the build falls back to the sample data in data/products.csv.

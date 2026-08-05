@@ -37,6 +37,12 @@
           <a class="navbar-item" href="contact.html">Contact</a>
         </div>
         <div class="navbar-end">
+          <div class="navbar-item psr-search-item">
+            <div class="psr-search" id="psrSearch">
+              <input class="input" type="search" id="psrSearchInput" placeholder="Search parts, brands…" autocomplete="off">
+              <div class="psr-search-results" id="psrSearchResults"></div>
+            </div>
+          </div>
           <div class="navbar-item"><a class="button is-link" href="contact.html">Request a quote</a></div>
         </div>
       </div>
@@ -62,16 +68,56 @@
       <div class="columns">
         <div class="column is-8">
           <p class="is-size-5">Support clinical and facility operations with healthcare consumables and equipment-related components. Share specifications so we can quote accurately.</p>
-          <h2 class="title is-4 mt-5">Common items we quote</h2>
-          <ul>
-            <li>Facility consumables</li>
-            <li>Equipment replacement components</li>
-            <li>Diagnostic and support supplies</li>
-            <li>Patient-care related products</li>
-            <li>Maintenance parts for clinical equipment</li>
-            <li>Hygiene and infection-control items</li>
-          </ul>
-          <h2 class="title is-4 mt-5">Who it is for</h2>
+
+          <h2 class="title is-4 mt-5">Products we supply</h2>
+          <div class="product-showcase columns is-multiline">
+<!-- psr:products:start -->
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-facility-consumables.html"><img src="/assets/products/facility%20consumables.jpg" alt="Facility Consumables" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-facility-consumables.html">Facility Consumables</a></p><p>Everyday healthcare facility supplies for wards, clinics, and support areas.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-facility-consumables.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-equipment-parts.html"><img src="/assets/products/equipment%20replacement.jpg" alt="Equipment Parts" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-equipment-parts.html">Equipment Parts</a></p><p>Replacement components for clinical and support equipment when specs are provided.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-equipment-parts.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-diagnostic-supplies.html"><img src="/assets/products/medical%20diagnostic.jpg" alt="Diagnostic Supplies" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-diagnostic-supplies.html">Diagnostic Supplies</a></p><p>Support supplies for labs, diagnostics, and clinical workflow areas.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-diagnostic-supplies.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-patient-care.html"><img src="/assets/products/medical%20patient%20care.jpeg" alt="Patient Care" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-patient-care.html">Patient Care</a></p><p>Patient-care related products sourced to your facility requirements.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-patient-care.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-clinical-maintenance.html"><img src="/assets/products/clinical%20maintinance.jpg" alt="Clinical Maintenance" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-clinical-maintenance.html">Clinical Maintenance</a></p><p>Maintenance parts and consumables that keep biomedical equipment in service.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-clinical-maintenance.html">View products</a></footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card category-card">
+                <a class="category-card-media" href="/products/medical-infection-control.html"><img src="/assets/products/medical%20infection%20contorl.jpeg" alt="Infection Control" loading="lazy"></a>
+                <div class="card-content"><p class="card-header-title" style="padding:0"><a href="/products/medical-infection-control.html">Infection Control</a></p><p>Hygiene and infection-control items for regulated healthcare environments.</p></div>
+                <footer class="card-footer"><a class="card-footer-item" href="/products/medical-infection-control.html">View products</a></footer>
+              </div>
+            </div>
+          <!-- psr:products:end -->
+          </div>
+
+          <h2 class="title is-4 mt-6">Who it is for</h2>
           <p>Hospitals, clinics, long-term care, and institutional healthcare operators.</p>
           <p class="mt-5"><a class="button is-link" href="contact.html">Request a quote for Medical Supplies & Parts</a></p>
         </div>
@@ -85,8 +131,7 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer footer-psr">
+<footer class="footer footer-psr">
     <div class="container content has-text-centered">
       <div class="brand-footer-logos is-flex is-justify-content-center is-align-items-center mb-4">
         <img class="brand-logo-psr" src="assets/psr_guam_logo.jpg" alt="PSR Guam — Pacific Supply Resources" loading="lazy">
@@ -97,6 +142,8 @@
       <p class="is-size-7">Mon–Fri 9:00 a.m. – 5:00 p.m. · <a href="contact.html">Contact</a></p>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js" defer></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var burger = document.querySelector(".navbar-burger");
