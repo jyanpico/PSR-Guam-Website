@@ -133,6 +133,39 @@
   },
   {
     "type": "subcategory",
+    "name": "Custom & Made-to-Order Radiators",
+    "brand": "",
+    "category": "radiators",
+    "categoryName": "Radiators",
+    "description": "Any size, any fit - radiators fabricated to your exact specifications when a stock unit will not do.",
+    "image": "radiator-custom-fabrication-shop.jpeg",
+    "keywords": [],
+    "url": "/products/radiators-custom-and-made-to-order-radiators.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "OEM Replacement Radiators",
+    "brand": "",
+    "category": "radiators",
+    "categoryName": "Radiators",
+    "description": "Direct-fit radiators for trucks, generators, heavy equipment, and industrial engines.",
+    "image": "radiator-oem-replacement.jpg",
+    "keywords": [],
+    "url": "/products/radiators-oem-replacement-radiators.html"
+  },
+  {
+    "type": "subcategory",
+    "name": "Radiator Cores & Repair Parts",
+    "brand": "",
+    "category": "radiators",
+    "categoryName": "Radiators",
+    "description": "Cores, tanks, caps, and rebuild components for radiator repair and maintenance.",
+    "image": "radiator-cores-and-parts.png",
+    "keywords": [],
+    "url": "/products/radiators-radiator-cores-and-repair-parts.html"
+  },
+  {
+    "type": "subcategory",
     "name": "Hand & Power Tools",
     "brand": "",
     "category": "site-equipment",
@@ -546,36 +579,6 @@
     "type": "product",
     "name": "Sample Product (replace this row)",
     "brand": "",
-    "category": "safety",
-    "categoryName": "Safety & PPE",
-    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
-    "image": "",
-    "keywords": [
-      "sample",
-      "placeholder",
-      "example"
-    ],
-    "url": "/products/items/safety-sample-product-replace-this-row.html"
-  },
-  {
-    "type": "product",
-    "name": "Sample Product (replace this row)",
-    "brand": "",
-    "category": "site-equipment",
-    "categoryName": "Site Equipment",
-    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
-    "image": "",
-    "keywords": [
-      "sample",
-      "placeholder",
-      "example"
-    ],
-    "url": "/products/items/site-equipment-sample-product-replace-this-row.html"
-  },
-  {
-    "type": "product",
-    "name": "Sample Product (replace this row)",
-    "brand": "",
     "category": "medical",
     "categoryName": "Medical Supplies & Parts",
     "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
@@ -586,21 +589,6 @@
       "example"
     ],
     "url": "/products/items/medical-sample-product-replace-this-row.html"
-  },
-  {
-    "type": "product",
-    "name": "Sample Product (replace this row)",
-    "brand": "",
-    "category": "janitorial",
-    "categoryName": "Janitorial & Cleaning",
-    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
-    "image": "",
-    "keywords": [
-      "sample",
-      "placeholder",
-      "example"
-    ],
-    "url": "/products/items/janitorial-sample-product-replace-this-row.html"
   },
   {
     "type": "product",
@@ -619,32 +607,555 @@
   },
   {
     "type": "product",
-    "name": "Sample Product (replace this row)",
-    "brand": "",
-    "category": "lubricants-coolants",
-    "categoryName": "Lubricants & Coolants",
-    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
-    "image": "",
+    "name": "UltraClean Multipurpose Paper Towels",
+    "brand": "UltraClean",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Multipurpose 2-ply paper towels for everyday wiping and cleanup tasks.",
+    "image": "ultraclean-multipurpose-paper-towels.jpg",
     "keywords": [
-      "sample",
-      "placeholder",
-      "example"
+      "paper towel",
+      "multipurpose",
+      "ultraclean",
+      "wiper"
     ],
-    "url": "/products/items/lubricants-coolants-sample-product-replace-this-row.html"
+    "url": "/products/items/janitorial-ultraclean-multipurpose-paper-towels.html"
   },
   {
     "type": "product",
-    "name": "Sample Product (replace this row)",
+    "name": "GTF Multifold Paper Towel - White Universal",
+    "brand": "GTF",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Universal white multifold paper towels sized to fit standard dispensers.",
+    "image": "gtf-multifold-paper-towel-941107.jpg",
+    "keywords": [
+      "multifold towel",
+      "paper towel",
+      "GTF",
+      "941107",
+      "dispenser towel"
+    ],
+    "url": "/products/items/janitorial-gtf-multifold-paper-towel-white-universal.html"
+  },
+  {
+    "type": "product",
+    "name": "Bunny Soft 2-Ply Bath Tissue (Case)",
+    "brand": "Bunny Soft",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "White soft premium 2-ply bath tissue, packed by the case for high-turnover restrooms.",
+    "image": "bunny-soft-bath-tissue-case-gtf001.jpg",
+    "keywords": [
+      "toilet tissue",
+      "toilet paper",
+      "bath tissue",
+      "bunny soft"
+    ],
+    "url": "/products/items/janitorial-bunny-soft-2-ply-bath-tissue-case.html"
+  },
+  {
+    "type": "product",
+    "name": "Kimberly-Clark Professional Touch-Less Towel Dispenser",
+    "brand": "Kimberly-Clark Professional",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Touch-less roll towel dispenser for high-traffic restrooms and break rooms.",
+    "image": "kimberly-clark-touchless-towel-dispenser.jpg",
+    "keywords": [
+      "towel dispenser",
+      "touchless dispenser",
+      "kimberly clark",
+      "hand towel dispenser"
+    ],
+    "url": "/products/items/janitorial-kimberly-clark-professional-touch-less-towel-dispenser.html"
+  },
+  {
+    "type": "product",
+    "name": "K&L Table Napkins & Interfold Hand Towels",
+    "brand": "K&L",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Table napkins, interfold hand towels, and jumbo tissue rolls for facility restocking.",
+    "image": "napkins-interfold-towels-jumbo-tissue.jpg",
+    "keywords": [
+      "napkins",
+      "interfold towels",
+      "jumbo roll",
+      "tissue"
+    ],
+    "url": "/products/items/janitorial-k-and-l-table-napkins-and-interfold-hand-towels.html"
+  },
+  {
+    "type": "product",
+    "name": "GTF Coreless Can Liners 33x40 Black",
+    "brand": "GTF",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Heavy-duty coreless can liners for large waste receptacles.",
+    "image": "gtf-coreless-can-liners-33x40-941016.jpg",
+    "keywords": [
+      "can liner",
+      "trash bag",
+      "coreless",
+      "941016",
+      "garbage bag"
+    ],
+    "url": "/products/items/janitorial-gtf-coreless-can-liners-33x40-black.html"
+  },
+  {
+    "type": "product",
+    "name": "GTF High-Density Can Liners 24x24 Black",
+    "brand": "GTF",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "High-density can liners for wastebaskets and light-duty trash collection.",
+    "image": "gtf-high-density-can-liners-24x24-941011.jpg",
+    "keywords": [
+      "can liner",
+      "trash bag",
+      "high density liner",
+      "941011"
+    ],
+    "url": "/products/items/janitorial-gtf-high-density-can-liners-24x24-black.html"
+  },
+  {
+    "type": "product",
+    "name": "GTF Coreless Can Liners 25x32 Black",
+    "brand": "GTF",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Coreless can liners sized for standard office and facility trash cans.",
+    "image": "gtf-coreless-can-liners-25x32-941014.jpg",
+    "keywords": [
+      "can liner",
+      "trash bag",
+      "coreless",
+      "941014"
+    ],
+    "url": "/products/items/janitorial-gtf-coreless-can-liners-25x32-black.html"
+  },
+  {
+    "type": "product",
+    "name": "Niagara Medium Duty Scouring Pad",
+    "brand": "Niagara",
+    "category": "janitorial",
+    "categoryName": "Janitorial & Cleaning",
+    "description": "Medium-duty scouring pads for everyday scrubbing and cleanup tasks.",
+    "image": "niagara-scouring-pad-and-california-scents.jpg",
+    "keywords": [
+      "scouring pad",
+      "scrub pad",
+      "niagara",
+      "scrubber"
+    ],
+    "url": "/products/items/janitorial-niagara-medium-duty-scouring-pad.html"
+  },
+  {
+    "type": "product",
+    "name": "Ru Ge Invoice Roll (POS Register Paper)",
+    "brand": "Ru Ge",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Cash register / invoice paper rolls for POS systems, ATMs, and office equipment.",
+    "image": "ruge-invoice-roll-register-paper.jpg",
+    "keywords": [
+      "register paper",
+      "receipt roll",
+      "pos paper",
+      "invoice roll",
+      "cash register tape"
+    ],
+    "url": "/products/items/office-supplies-ru-ge-invoice-roll-pos-register-paper.html"
+  },
+  {
+    "type": "product",
+    "name": "POS Thermal Register Paper Roll",
     "brand": "",
     "category": "office-supplies",
     "categoryName": "Office Supplies",
-    "description": "Placeholder listing showing how a real product will look - delete this row once you add your own products.",
-    "image": "",
+    "description": "Thermal receipt paper rolls sized for standard POS terminals.",
+    "image": "pos-thermal-register-paper-roll.jpg",
     "keywords": [
-      "sample",
-      "placeholder",
-      "example"
+      "thermal paper",
+      "receipt roll",
+      "pos roll",
+      "80mm"
     ],
-    "url": "/products/items/office-supplies-sample-product-replace-this-row.html"
+    "url": "/products/items/office-supplies-pos-thermal-register-paper-roll.html"
+  },
+  {
+    "type": "product",
+    "name": "Double A Copy Paper (20lb)",
+    "brand": "Double A",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Everyday multipurpose copy paper for office printers and copiers.",
+    "image": "double-a-copy-paper.jpg",
+    "keywords": [
+      "copy paper",
+      "printer paper",
+      "double a",
+      "office paper"
+    ],
+    "url": "/products/items/office-supplies-double-a-copy-paper-20lb.html"
+  },
+  {
+    "type": "product",
+    "name": "California Scents Car Scents Air Freshener",
+    "brand": "California Scents",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Long-lasting gel air fresheners for offices, vehicles, and shared spaces.",
+    "image": "niagara-scouring-pad-and-california-scents.jpg",
+    "keywords": [
+      "air freshener",
+      "odor control",
+      "california scents",
+      "gel freshener"
+    ],
+    "url": "/products/items/office-supplies-california-scents-car-scents-air-freshener.html"
+  },
+  {
+    "type": "product",
+    "name": "My Pleasure Pink Lotion Hand Soap",
+    "brand": "My Pleasure",
+    "category": "office-supplies",
+    "categoryName": "Office Supplies",
+    "description": "Pink lotion hand soap for washroom and break room dispensers.",
+    "image": "johnsens-dot3-brake-fluid-closeup.jpg",
+    "keywords": [
+      "hand soap",
+      "lotion soap",
+      "pink soap",
+      "hand hygiene"
+    ],
+    "url": "/products/items/office-supplies-my-pleasure-pink-lotion-hand-soap.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Super Friction Fighter 5W-30",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology engine oil for petrol and diesel engines.",
+    "image": "mobil-super-friction-fighter-5w30-case.jpg",
+    "keywords": [
+      "mobil super",
+      "friction fighter",
+      "engine oil",
+      "5w30",
+      "motor oil"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-super-friction-fighter-5w-30.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Super Friction Fighter 10W-30",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology engine oil for petrol and diesel engines.",
+    "image": "mobil-super-friction-fighter-10w30-case.jpg",
+    "keywords": [
+      "mobil super",
+      "friction fighter",
+      "engine oil",
+      "10w30",
+      "motor oil"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-super-friction-fighter-10w-30.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Super Friction Fighter 15W-40",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology engine oil suitable for petrol and diesel engines.",
+    "image": "mobil-super-friction-fighter-15w40.jpg",
+    "keywords": [
+      "mobil super",
+      "friction fighter",
+      "engine oil",
+      "15w40"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-super-friction-fighter-15w-40.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Super Friction Fighter 5W-20",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology engine oil for petrol engines.",
+    "image": "mobil-super-friction-fighter-5w20.jpg",
+    "keywords": [
+      "mobil super",
+      "friction fighter",
+      "engine oil",
+      "5w20"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-super-friction-fighter-5w-20.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil 1 Triple Action Power+ 0W-20",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Ultimate full synthetic engine oil for petrol, diesel, and hybrid engines.",
+    "image": "mobil-1-triple-action-power-plus-0w20.jpg",
+    "keywords": [
+      "mobil 1",
+      "triple action power",
+      "engine oil",
+      "0w20",
+      "full synthetic"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-1-triple-action-power-0w-20.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil 1 Triple Action Power 5W-30",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Advanced full synthetic engine oil for petrol, diesel, and hybrid engines.",
+    "image": "mobil-1-triple-action-power-lineup.jpg",
+    "keywords": [
+      "mobil 1",
+      "triple action power",
+      "engine oil",
+      "5w30",
+      "full synthetic"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-1-triple-action-power-5w-30.html"
+  },
+  {
+    "type": "product",
+    "name": "Johnsen's 2 Cycle Engine Oil",
+    "brand": "Johnsen's",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Universal multi-purpose 2 cycle engine oil for air cooled engines.",
+    "image": "johnsens-2cycle-oil-and-dot3-brake-fluid.jpg",
+    "keywords": [
+      "2 cycle oil",
+      "two stroke oil",
+      "johnsens",
+      "small engine oil"
+    ],
+    "url": "/products/items/lubricants-coolants-johnsen-s-2-cycle-engine-oil.html"
+  },
+  {
+    "type": "product",
+    "name": "GreaseCo Heavy Duty Grease Cartridges",
+    "brand": "GreaseCo",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Heavy duty grease cartridges rated for high temperature and extreme pressure use.",
+    "image": "greaseco-heavy-duty-grease-cartridges.jpg",
+    "keywords": [
+      "grease cartridge",
+      "heavy duty grease",
+      "greaseco"
+    ],
+    "url": "/products/items/lubricants-coolants-greaseco-heavy-duty-grease-cartridges.html"
+  },
+  {
+    "type": "product",
+    "name": "HeavyDuty Lithium Complex Grease",
+    "brand": "HeavyDuty",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Lithium complex grease formulated for agriculture, automotive, construction, and mining equipment.",
+    "image": "heavyduty-lithium-complex-grease-and-3m-n95.jpg",
+    "keywords": [
+      "lithium grease",
+      "lithium complex",
+      "heavy duty grease",
+      "cartridge grease"
+    ],
+    "url": "/products/items/lubricants-coolants-heavyduty-lithium-complex-grease.html"
+  },
+  {
+    "type": "product",
+    "name": "Shell Rimula R4X 15W-40 (Bulk Drum)",
+    "brand": "Shell",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Bulk heavy-duty diesel engine oil for fleets and industrial equipment.",
+    "image": "shell-rimula-r4x-15w40-drum.jpg",
+    "keywords": [
+      "shell rimula",
+      "diesel engine oil",
+      "bulk drum",
+      "15w40"
+    ],
+    "url": "/products/items/lubricants-coolants-shell-rimula-r4x-15w-40-bulk-drum.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Delvac Modern 15W-40 Super Defense (Drum)",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology commercial vehicle engine oil in bulk drum quantity.",
+    "image": "mobil-delvac-modern-15w40-drums.jpg",
+    "keywords": [
+      "mobil delvac",
+      "diesel engine oil",
+      "bulk drum",
+      "15w40",
+      "commercial vehicle oil"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-delvac-modern-15w-40-super-defense-drum.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil Delvac Modern 15W-40 Super Defense (Pail)",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Synthetic technology commercial vehicle engine oil in 20L pail quantity.",
+    "image": "mobil-delvac-modern-15w40-pails.jpg",
+    "keywords": [
+      "mobil delvac",
+      "diesel engine oil",
+      "pail",
+      "15w40"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-delvac-modern-15w-40-super-defense-pail.html"
+  },
+  {
+    "type": "product",
+    "name": "Mobil DTE 26 Ultra Hydraulic Oil",
+    "brand": "Mobil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Next generation anti-wear hydraulic oil for heavy-duty hydraulic systems.",
+    "image": "mobil-dte-26-ultra-hydraulic-oil-pail.jpg",
+    "keywords": [
+      "hydraulic oil",
+      "mobil dte",
+      "dte 26 ultra",
+      "anti-wear oil"
+    ],
+    "url": "/products/items/lubricants-coolants-mobil-dte-26-ultra-hydraulic-oil.html"
+  },
+  {
+    "type": "product",
+    "name": "Johnsen's Sintetico DOT-3 Brake Fluid",
+    "brand": "Johnsen's",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "DOT-3 synthetic brake fluid for drum and disc brakes.",
+    "image": "johnsens-dot3-brake-fluid-closeup.jpg",
+    "keywords": [
+      "brake fluid",
+      "dot 3",
+      "johnsens",
+      "hydraulic brake fluid"
+    ],
+    "url": "/products/items/lubricants-coolants-johnsen-s-sintetico-dot-3-brake-fluid.html"
+  },
+  {
+    "type": "product",
+    "name": "World Oil Heavy Duty Extended Life Antifreeze",
+    "brand": "World Oil",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Prediluted heavy-duty extended life antifreeze/coolant for on-road and off-road diesel engines.",
+    "image": "world-oil-antifreeze-drum.jpg",
+    "keywords": [
+      "antifreeze",
+      "coolant",
+      "world oil",
+      "prediluted coolant",
+      "extended life"
+    ],
+    "url": "/products/items/lubricants-coolants-world-oil-heavy-duty-extended-life-antifreeze.html"
+  },
+  {
+    "type": "product",
+    "name": "UltraGreen DEF (Diesel Exhaust Fluid)",
+    "brand": "UltraGreen",
+    "category": "lubricants-coolants",
+    "categoryName": "Lubricants & Coolants",
+    "description": "Diesel exhaust fluid for SCR-equipped diesel engines.",
+    "image": "ultragreen-def-diesel-exhaust-fluid.jpg",
+    "keywords": [
+      "def",
+      "diesel exhaust fluid",
+      "adblue",
+      "ultragreen"
+    ],
+    "url": "/products/items/lubricants-coolants-ultragreen-def-diesel-exhaust-fluid.html"
+  },
+  {
+    "type": "product",
+    "name": "3M Particulate Respirator N95 (8210)",
+    "brand": "3M",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "N95 particulate respirators for dust, sanding, and general particulate protection.",
+    "image": "3m-n95-8210-respirator-box.jpg",
+    "keywords": [
+      "n95",
+      "respirator",
+      "3m",
+      "particulate mask",
+      "8210"
+    ],
+    "url": "/products/items/safety-3m-particulate-respirator-n95-8210.html"
+  },
+  {
+    "type": "product",
+    "name": "Hi-Vis Safety Vests & Shirts",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "High-visibility vests and shirts for job-site and roadway visibility.",
+    "image": "hivis-safety-vests-shirts.jpg",
+    "keywords": [
+      "hi-vis",
+      "safety vest",
+      "high visibility",
+      "reflective apparel"
+    ],
+    "url": "/products/items/safety-hi-vis-safety-vests-and-shirts.html"
+  },
+  {
+    "type": "product",
+    "name": "Assorted Work Gloves",
+    "brand": "",
+    "category": "safety",
+    "categoryName": "Safety & PPE",
+    "description": "A range of work gloves including impact-resistant, nitrile-coated, and disposable nitrile styles.",
+    "image": "assorted-work-gloves.jpg",
+    "keywords": [
+      "work gloves",
+      "nitrile gloves",
+      "impact gloves",
+      "disposable gloves"
+    ],
+    "url": "/products/items/safety-assorted-work-gloves.html"
+  },
+  {
+    "type": "product",
+    "name": "Solar-Powered LED Flood Light",
+    "brand": "",
+    "category": "site-equipment",
+    "categoryName": "Site Equipment",
+    "description": "Solar-powered LED flood light for job-site security and after-hours visibility.",
+    "image": "solar-led-flood-light.jpg",
+    "keywords": [
+      "solar light",
+      "led flood light",
+      "security lighting",
+      "job site lighting"
+    ],
+    "url": "/products/items/site-equipment-solar-powered-led-flood-light.html"
   }
 ]

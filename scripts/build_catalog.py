@@ -53,6 +53,7 @@ SITE_PHONE_TEL = "6717874007"
 CATEGORIES = {
     "machinery": {"file": "machinery.html", "name": "Heavy Machinery & Spare Parts", "email": "sales@yancocorp.com"},
     "safety": {"file": "safety.html", "name": "Safety & PPE", "email": "sales@yancocorp.com"},
+    "radiators": {"file": "radiators.html", "name": "Radiators", "email": "sales@yancocorp.com"},
     "site-equipment": {"file": "site-equipment.html", "name": "Site Equipment", "email": "sales@yancocorp.com"},
     "medical": {"file": "medical.html", "name": "Medical Supplies & Parts", "email": "sales@psrguam.com"},
     "janitorial": {"file": "janitorial.html", "name": "Janitorial & Cleaning", "email": "sales@psrguam.com"},

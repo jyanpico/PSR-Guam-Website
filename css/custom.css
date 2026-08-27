@@ -417,47 +417,6 @@ strong {
   padding-bottom: 0.35rem !important;
 }
 
-.brand-logo-yanco {
-  display: block;
-  max-height: 28px;
-  width: auto;
-  height: auto;
-}
-
-.navbar .brand-yanco-lockup img.brand-logo-yanco {
-  /* Top nav: replace the parent-logo image with text */
-  display: none;
-}
-
-.navbar .brand-yanco-lockup > p {
-  /* Hide the "A division of" label; we'll replace it with a single line. */
-  display: none;
-}
-
-.navbar .brand-yanco-lockup::after {
-  content: "PSR Guam";
-  display: block;
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.3;
-  color: var(--psr-heading);
-  white-space: nowrap;
-  margin-top: 0.15rem;
-}
-
-.navbar .brand-yanco-lockup {
-  padding-left: 1rem !important;
-  align-self: center;
-}
-
-.brand-yanco-lockup {
-  border-left: 1px solid var(--psr-border);
-}
-
-.footer-psr .brand-yanco-lockup {
-  border-left-color: rgba(255, 255, 255, 0.2);
-}
-
 .brand-footer-logos {
   flex-wrap: wrap;
   gap: 1.25rem;
@@ -465,10 +424,6 @@ strong {
 
 .brand-footer-logos .brand-logo-psr {
   max-height: 52px;
-}
-
-.brand-footer-logos .brand-logo-yanco {
-  max-height: 36px;
 }
 
 /* ── Brand partners banner ──────────────────────────────── */

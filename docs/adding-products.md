@@ -27,8 +27,8 @@ them empty for now.
 
    - `id` — leave blank; the site generates one automatically.
    - `category` — must be exactly one of: `machinery`, `safety`,
-     `site-equipment`, `medical`, `janitorial`, `hotel-supplies`,
-     `lubricants-coolants`, `office-supplies`.
+     `radiators`, `site-equipment`, `medical`, `janitorial`,
+     `hotel-supplies`, `lubricants-coolants`, `office-supplies`.
    - `subcategory` — must match the name of one of the tiles on that
      category's page exactly (e.g. `Bearings & Seals`, `Filters`). If it
      doesn't match anything, the build log will flag it and the product
